@@ -437,12 +437,12 @@ fun main() {
 
 ```kotlin
 fun main() {
-    print_HuangTao_Weather("Ankara", 27, 31, 82)
-    print_HuangTao_Weather("Tokyo", 32, 36, 10)
-    print_HuangTao_Weather("Cape Town", 59, 64, 2)
-    print_HuangTao_Weather("Guatemala City", 50, 55, 7)
+    printHuangaoWeather("Ankara", 27, 31, 82)
+    printHuangaoWeather("Tokyo", 32, 36, 10)
+    printHuangaoWeather("Cape Town", 59, 64, 2)
+    printHuangaoWeather("Guatemala City", 50, 55, 7)
 }
-fun print_HuangTao_Weather(city: String, lowTemp: Int, highTemp: Int, rainChance: Int) {
+fun printHuangaoWeather(city: String, lowTemp: Int, highTemp: Int, rainChance: Int) {
     println("City: $city")
     println("Low temperature: $lowTemp, High temperature: $highTemp")
     println("Chance of rain: $rainChance%")
